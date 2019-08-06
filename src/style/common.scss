@@ -1,0 +1,287 @@
+.mt10 {
+  margin-top: 10px !important;
+}
+.mt20 {
+  margin-top: 20px !important;
+}
+.mt30 {
+  margin-top: 30px !important;
+}
+.mt40{
+  margin-top: 40px;
+}
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.mt15{
+  margin-top: 15px;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
+.mb30 {
+  margin-bottom: 30px !important;
+}
+.ml10 {
+  margin-left: 10px !important;
+}
+.ml20 {
+  margin-left: 20px !important;
+}
+.ml30 {
+  margin-left: 30px !important;
+}
+.mr10 {
+  margin-right: 10px !important;
+}
+.mr20 {
+  margin-right: 20px !important;
+}
+.mr30 {
+  margin-right: 30px !important;
+}
+.mlr10 {
+  margin: 0 10px !important;
+}
+.mlr20 {
+  margin: 0 20px !important;
+}
+.mlr30 {
+  margin: 0 30px !important;
+}
+.m10 {
+  margin: 10px !important;
+}
+.m20 {
+  margin: 20px !important;
+}
+.m30 {
+  margin: 30px !important;
+}
+.pt10 {
+  padding-top: 10px !important;
+}
+.pt20 {
+  padding-top: 20px !important;
+}
+.pt30 {
+  padding-top: 30px !important;
+}
+.pr10 {
+  padding-right: 10px !important;
+}
+.pr20 {
+  padding-right: 20px !important;
+}
+.pr30 {
+  padding-right: 30px !important;
+}
+.pb10 {
+  padding-bottom: 10px !important;
+}
+.pb20 {
+  padding-bottom: 20px !important;
+}
+.pb30 {
+  padding-bottom: 30px !important;
+}
+.pl10 {
+  padding-left: 10px !important;
+}
+.pl20 {
+  padding-left: 20px !important;
+}
+.pl30 {
+  padding-left: 30px !important;
+}
+.plr10 {
+  padding: 0 10px !important;
+}
+.plr20 {
+  padding: 0 20px !important;
+}
+.plr30 {
+  padding: 0 30px !important;
+}
+.p10 {
+  padding: 10px !important;
+}
+.p20 {
+  padding: 20px !important;
+}
+.p30 {
+  padding: 30px !important;
+}
+.bor_b {
+  border-bottom: 1px solid #dce1e6;
+}
+
+.bor_t {
+  border-top: 1px solid #dce1e6;
+}
+
+.bor_l {
+  border-left: 1px solid #dce1e6;
+}
+
+.bor_r {
+  border-right: 1px solid #dce1e6;
+}
+.bor{
+  border: 1px solid #dce1e6;
+}
+// 字号
+.fs12 {
+  font-size: 12px !important;
+}
+.fs14 {
+  font-size: 14px !important;
+}
+.fs16 {
+  font-size: 16px !important;
+}
+.fs18 {
+  font-size: 18px !important;
+}
+.fs20 {
+  font-size: 20px;
+}
+.fs22 {
+  font-size: 22px;
+}
+.fs24 {
+  font-size: 24px;
+}
+.fs26 {
+  font-size: 26px;
+}
+.fs28 {
+  font-size: 28px;
+}
+.fs30 {
+  font-size: 30px;
+}
+.colfff{
+  color: #fff;
+}
+.cursor{
+  cursor: pointer;
+}
+.none{
+  display: none !important;
+}
+// 位置
+.center {
+  text-align: center;
+}
+.flex_center {
+  justify-content: center;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.clear {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+// flex布局
+.flex {
+  display: flex;
+}
+.justify {
+  justify-content: space-between;
+}
+.align_items {
+  align-items: center;
+}
+.baseline{
+  align-items: baseline;
+ }
+.fl_jsb_alc{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block{
+  display: block
+}
+//颜色
+.blue {
+  color: #1976d2;
+}
+.harvest{
+  color: #00ba92;
+}
+.expend{
+  color: #f04b48;
+}
+
+.bgfff {
+  background-color: #fff;
+}
+.bold{
+  font-weight: 700;
+}
+.colf{
+  color: #fff !important;
+}
+.c1976d2{
+  color: #1976d2;
+  }
+.shadow {
+  box-shadow: 0 4px 20px 0 rgba(0, 26, 79, 0.14);
+}
+.width200{
+  width: 200px !important;
+}
+
+.button_ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  p {
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .pass {
+    color: #1976d2;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: solid 1px #1976d2;
+    margin-right: 30px;
+  }
+  .turn_down {
+    background-color: #1976d2;
+    color: #fff;
+  }
+}
+.radius4{
+  border-radius: 4px;
+}
